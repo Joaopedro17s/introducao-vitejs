@@ -8,7 +8,7 @@ function home() {
         <div>
           <h1>Aula de Vite com React JS</h1>
 
-          <button onClick={()=> navigate('/exemplo1')}>
+          <button onClick={()=> navigate('/exemplo/1')}>
             Exemplo1
             </button>
 
