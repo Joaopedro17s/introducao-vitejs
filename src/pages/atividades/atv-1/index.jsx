@@ -1,8 +1,10 @@
-function Exemplo01() {
+import styles from './index.module.css';
+
+function Atividade1() {
     return (
         <div className={styles.container}>
             
-            <h1>Exemplo 1</h1>
+            <h1>Atv 1</h1>
             <p>Conteúdo mínimo para componente React</p>
             
             </div>
@@ -10,4 +12,4 @@ function Exemplo01() {
     )
 }
 
-export default Exemplo01;
+export default Atividade1;

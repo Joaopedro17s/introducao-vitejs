@@ -15,6 +15,7 @@
           
           <div className={styles.containerCards}>    
             <h2>Atividades</h2>      
+            <Link to="/atividades/1">Atividade 1</Link> 
           </div>
       </div>
     )
