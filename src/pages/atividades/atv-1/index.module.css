@@ -1,5 +1,6 @@
 .container {
+    background-color: cadetblue;
     display: flex; 
     flex-direction: column; 
-        border: 0.3rem solid #00f;
+    border: 0.3rem solid #00f;   
 }
