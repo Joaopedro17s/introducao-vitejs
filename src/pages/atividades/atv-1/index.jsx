@@ -1,15 +1,11 @@
 import styles from './index.module.css';
 
-function Atividade1() {
-    return (
-        <div className={styles.container}>
+export default function Atividade1 () {
+    return(
+        <>
+            <h1 className={styles.titulo}>Atividade 1</h1>
             
-            <h1>Atv 1</h1>
-            <p>Conteúdo mínimo para componente React</p>
-            
-            </div>
-       
+            <p>Componente mínimo</p>
+        </>
     )
 }
-
-export default Atividade1;
