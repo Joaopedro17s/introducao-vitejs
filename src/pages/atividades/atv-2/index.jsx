@@ -19,26 +19,29 @@ export default function Atividade2() {
     }
 
     return (
+
+       
         <div className={styles.container}>
-            <label className={styles.texto}>{`Contador ${num}`}</label>
+
+        <div>  
             <label                
                 className={styles.botao} 
-                onClick={() => somarUm()}
-            >+1</label>
-            
-            <label
-            className={styles.botao} 
                 onClick={() => subtrairUm()}
             >-1</label>
 
+            <label className={styles.texto}>{`Contador ${num}`}</label>
+            
             <label
+            className={styles.botao} 
+                onClick={() => somarUm()}
+            >+1</label>
+        </div>
+        
+       <label
             className={styles.botao} 
                 onClick={() => zero()}
             >Zerar</label>
-
-
         </div>
-
         
     );
 }
